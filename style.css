@@ -112,3 +112,12 @@ tr td {
 .sub-map {
   margin-bottom: 2rem;
 }
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.manny {
+  justify-self: center;
+  width: 70%;
+  border-radius: 1rem;
+}
