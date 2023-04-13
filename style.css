@@ -55,7 +55,7 @@ tr td {
   margin: 2rem;
   font-size: 1rem;
   width: 20%;
-  border-radius: 2rem;
+  border-radius: 1rem;
   padding: 1rem;
   font-weight: 600;
   border: 2px solid #ffffff;
@@ -68,6 +68,12 @@ tr td {
 .social {
   text-decoration: none;
   color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.ordered li {
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 .social1 {
   text-decoration: none;
@@ -91,7 +97,25 @@ tr td {
   color: blue;
 }
 .article {
+  display: flex;
   padding: 1rem;
+  align-items: center;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  flex-flow: column wrap;
+  color: #ffffff;
+}
+.h1-artic {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1rem;
+}
+.article-container {
+  background-color: rgb(28, 25, 25);
+  border-radius: 0.5rem;
+  padding: 2rem;
 }
 
 .map-cont {
@@ -100,6 +124,7 @@ tr td {
 .map {
   display: flex;
   justify-content: center;
+  margin-bottom: 4rem;
 }
 .main-map {
   width: 100vw;
@@ -117,7 +142,19 @@ tr td {
   grid-template-columns: repeat(2, 1fr);
 }
 .manny {
-  justify-self: center;
+  display: flex;
+  justify-content: center;
   width: 70%;
   border-radius: 1rem;
+}
+.manny-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
